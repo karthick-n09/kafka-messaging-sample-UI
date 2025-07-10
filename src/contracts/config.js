@@ -4,7 +4,8 @@ export const NETWORKS = {
         chainId: '0x4268', // 17000
         // rpcUrl: 'https://eth-holesky.g.alchemy.com/v2/oNcQU1hM7hs-V2SUOrqII5DKw_pzeOV3',
         rpcUrl: 'https://clean-nameless-pine.ethereum-holesky.quiknode.pro/7eeabcc8025bd9adf19df540b1f6481a06ac1738/',
-        contractAddress: '0x59Ed8e9Cb1C7D154ffE87f7bb3cBBD868d77D58A'
+        // contractAddress: '0x59Ed8e9Cb1C7D154ffE87f7bb3cBBD868d77D58A'
+        contractAddress: '0xAB980Eb150A3B405De4fcd9dD1190716B73d4603'
     },
     POLYGON_AMOY: {
         name: 'Polygon Amoy',

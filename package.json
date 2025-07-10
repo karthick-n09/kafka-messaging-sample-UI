@@ -3,18 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^7.1.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.10.0",
+    "bip32": "^5.0.0-rc.0",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^5.2.0",
+    "buffer": "^6.0.3",
     "ethers": "^6.11.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4",
-    "web3": "^4.5.0"
+    "stream-browserify": "^3.0.0",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "craco start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -37,4 +46,4 @@
       "last 1 safari version"
     ]
   }
-} 
+}
